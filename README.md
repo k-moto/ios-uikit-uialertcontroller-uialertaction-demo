@@ -31,6 +31,7 @@ UIViewController
 |メソッド名|説明|サンプル|
 |---|---|---|
 |addAction(_:) | UIAlertActionを追加する| alert.addAction(cancelAction) |
+|addTextField(configurationHandler: ) | UITextFieldを追加する。（アラートのみ） |alert.addTextField(configurationHandler: {(text:UITextField!) -> Void in}|
 
 ## Constants
 
